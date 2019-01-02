@@ -1,3 +1,3 @@
 # cork-cauldron
 
-[The Cork & Cauldron](https://calumdixon.github.io/cprk-cauldron/index.html)
+[The Cork & Cauldron](https://calumdixon.github.io/cork-cauldron/index.html)
