@@ -1464,7 +1464,7 @@ pointer-events: none;
 
   .modal-body {
     padding:0;
-    height:45vh;
+    height:30vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
   }
