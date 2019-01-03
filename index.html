@@ -28,11 +28,67 @@
 
 <div class="button-container">
 
-  <button class="store-button">Download Icon Set</button>
-  <a href="element-select.html" alt="link to element selection screen">
-  <button class="store-button">Where to Use Icons</button>
-  </a>
+  <button class="store-button" id="download-modal-button">Download Icon Set</button>
+  <button class="store-button" id="usage-modal-button">Where to Use Icons</button>
 
+</div>
+
+<div id="download-modal" class="download-modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="close-container">
+      <div class="download-close"></div>
+      </div>
+      <h2>Download the Icon Set</h2>
+      <p>Feel free to download the icon set and use it for anything. I'd love to see what you make with them icons so be sure to tweet the results to me on <a href="https://twitter.com/CalumDixon_" target="_blank">Twitter.</a></p>
+    </div>
+    <div class="download-modal-body">
+
+      <div class="download-col1">
+
+        <h2 class="download-col-title">Everything Pack</h2>
+        <p class="download-col-para">A pack containing the potions in all shapes and forms.</p>
+        <button class="download-col-button">Download</button>
+
+      </div>
+
+      <div class="download-col2">
+
+        <h2 class="download-col-title">SVG Pack</h2>
+        <p class="download-col-para">A pack containing the potions only in SVG format.</p>
+        <button class="download-col-button">Download</button>
+
+      </div>
+
+      <div class="download-col1">
+
+        <h2 class="download-col-title">PNG Pack</h2>
+        <p class="download-col-para">A pack containing the potions only in PNG format.</p>
+        <button class="download-col-button">Download</button>
+
+      </div>
+
+      <div class="download-col2">
+
+        <h2 class="download-col-title">JPG Pack</h2>
+        <p class="download-col-para">A pack containing the potions only in JPG format.</p>
+        <button class="download-col-button">Download</button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="usage-modal" class="usage-modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="usage-close">&times;</span>
+    </div>
+    <div class="modal-body">
+      gfg
+    </div>
+  </div>
 </div>
 
 <div class="ivar-container">
@@ -3239,6 +3295,58 @@
 </div>
 
 </div>
+
+<script>
+
+const modal = document.querySelector('#download-modal');
+const modalBtn = document.querySelector('#download-modal-button');
+const closeBtn = document.querySelector('.download-close');
+
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+function openModal() {
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+
+</script>
+
+<script>
+
+const modal2 = document.querySelector('#usage-modal');
+const modalBtn2 = document.querySelector('#usage-modal-button');
+const closeBtn2 = document.querySelector('.usage-close');
+
+modalBtn2.addEventListener('click', openModal);
+closeBtn2.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+function openModal() {
+  modal2.style.display = 'block';
+}
+
+function closeModal() {
+  modal2.style.display = 'none';
+}
+
+function outsideClick(e) {
+  if (e.target == modal2) {
+    modal2.style.display = 'none';
+  }
+}
+
+</script>
 
 </body>
 
