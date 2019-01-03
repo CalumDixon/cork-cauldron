@@ -1471,7 +1471,7 @@ pointer-events: none;
 
   .download-modal-body {
     padding:3em;
-    height:45vh;
+    height:40vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
     display: grid;
