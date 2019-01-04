@@ -1522,12 +1522,13 @@ pointer-events: none;
 
   .usage-modal-body {
     padding:0;
-    height:auto;
+    height:45vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
     grid-gap: 4em;
     width:80%;
     margin: 0 auto;
+    overflow-y: scroll;
     padding:2em;
     padding-top: 0;
     padding-bottom: 3em;
