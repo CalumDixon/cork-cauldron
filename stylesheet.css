@@ -379,7 +379,20 @@ transition: 200ms;
   border-radius: 5em;
 }
 
+.usage-modal-body::-webkit-scrollbar {
+    width:0.5em;
+}
 
+.usage-modal-body::-webkit-scrollbar-track {
+    background-color: #fee7c0;
+    margin-right:2em;
+    border-radius: 5em;
+}
+
+.usage-modal-body::-webkit-scrollbar-thumb {
+  background-color:#f9dbaf;
+  border-radius: 5em;
+}
 
 
 
@@ -1523,16 +1536,21 @@ pointer-events: none;
   .usage-modal-body {
     padding:0;
     height:45vh;
+    overflow-y:scroll;
+    width:85%;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
     grid-gap: 4em;
-    width:80%;
     margin: 0 auto;
     overflow-y: scroll;
     padding:2em;
     padding-top: 0;
     padding-bottom: 3em;
   }
+
+.usage-content-padding {
+    padding-bottom: 3em;
+}
 
   .usage-cc-section {
     width:100%;
