@@ -1617,7 +1617,7 @@ pointer-events: none;
   }
 
   .suggestion-col-para {
-    font-size:1em;
+    font-size:1.2em;
     font-family: 'museo-sans-rounded', sans-serif;
     margin: 0 auto;
     color:#492020;
