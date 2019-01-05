@@ -3759,12 +3759,13 @@ body {
   display: flex;
   background-color:#381818;
   justify-content: center;
+  overflow:hidden;
   align-items: center;
   z-index: 10000;
 }
 
 .mobile-potion{
-  width:15em;
+  width:11em;
   margin:0;
   margin-top:auto;
   padding:0;
@@ -4062,6 +4063,180 @@ body {
 }
 
 @media (max-width:35em){
+
+
+  .mobile-container-large {
+    width:100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .content-container {
+    display: none;
+  }
+
+  .mobile-top-container {
+    padding-bottom: 3em;
+    padding-top: 5em;
+    position: relative;
+    background-color:#492020;
+  }
+
+  .mobile-brand-container {
+    position: relative;
+    display: block;
+    width:60%;
+    margin:0 auto;
+    padding:0;
+    background-color:#cc2954;
+    border-radius:1em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    border: 0.8em solid #aa2447 ;
+  }
+
+  .web-intro {
+      font-family: 'museo-sans-rounded', sans-serif;
+      width:60%;
+      padding-top: 3em;
+      font-weight:500;
+      font-size:1.4em;
+      color:#fff4d4;
+      margin:0 auto;
+      margin-top:0.5em;
+      text-align-last: center;
+  }
+
+
+  .brand-icon {
+    width:7em;
+    display: block;
+    margin:0 auto;
+  }
+
+  .brand-intro {
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight:700;
+    font-size:1.8em;
+    color:white;
+    margin:0 auto;
+    margin-top:0.5em;
+  }
+
+  .brand-name {
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight:700;
+    font-size:2.6em;
+    margin-top:1em;
+    letter-spacing: 1px;
+    color:white;
+    margin:0 auto;
+    display: block;
+    text-align:center;
+  }
+
+.desk-button-container{
+    margin: 0 auto;
+    padding-top: 2em;
+    display: block;
+    position: relative;
+    padding:0;
+    background-color:#492020;
+    font-family: museo-sans-rounded, sans-serif;
+    color:#fff4d4;
+    width:100%;
+  }
+
+.mobile-button-container-title {
+  margin:0 auto;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding:0;
+  width:90%;
+  padding-top:1em;
+  font-size: 1.6em;
+}
+
+.store-button {
+    height: 2.2em;
+    min-width: 12em;
+    background:#fff4d4;
+    cursor: pointer;
+    border:none;
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight:700;
+    letter-spacing: 1px;
+    font-size:0.9em;
+    border-radius:50em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.mobile-button-container {
+    width:100%;
+    margin: 0 auto;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    position:relative;
+    margin-top: 1em;
+    padding-bottom:2em;
+}
+
+.potion-container {
+  width:100%;
+  margin: 0 auto;
+  display: block;
+  background-color:#492020;
+  padding-bottom:0em;
+}
+
+.potion-center-container {
+  width:90%;
+  padding:0;
+  margin: 0 auto;
+  padding-top:4em;
+  display: block;
+  display: flex;
+  background-color:#381818;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+  z-index: 10000;
+}
+
+.mobile-potion{
+  width:10em;
+  margin:0;
+  margin-top:auto;
+  padding:0;
+  margin-right: 2em;
+  margin-left: 2em;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.mobile-potion:hover {
+  transform: translateY(-20px);
+  transition: 250ms;
+}
+
+.shelf-bar {
+  content:'';
+  width:100%;
+  margin: 0 auto;
+  height:2.5em;
+  background-color:#492020;}
+
+
+
+
+
+
 
 
   .usage-modal-body {
@@ -4824,5 +4999,20 @@ body {
 
 
 
+
+}
+
+@media (max-width:25em){
+
+  .mobile-potion{
+    width:6em;
+    margin:0;
+    margin-top:auto;
+    padding:0;
+    margin-right: 2em;
+    margin-left: 2em;
+    cursor: pointer;
+    transition: 250ms;
+  }
 
 }
