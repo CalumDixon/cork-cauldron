@@ -3965,7 +3965,25 @@ body {
     display: none;
   }
 
+  .left-side-container::-webkit-scrollbar-thumb:hover {
+        display: none;
+  }
 
+  .left-side-container::-webkit-scrollbar {
+          display: none;
+  }
+
+  .left-side-container::-webkit-scrollbar-track {
+          display: none;
+  }
+
+  .left-side-container::-webkit-scrollbar-thumb {
+        display: none;
+  }
+
+  .left-side-container::-webkit-scrollbar-thumb:hover {
+        display: none;
+  }
 
 
 
