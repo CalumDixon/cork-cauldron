@@ -1,3 +1,67 @@
+.content-load {
+  animation:contentLoad-2 0.75s ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes contentLoad-2 {
+
+0% {
+  opacity:0;
+  transform: translateY(30px);
+}
+
+100% {
+  opacity:1;
+  transform: translateY(0px);
+}
+
+}
+
+.content-load-2 {
+  animation:contentLoad-3 0.75s ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes contentLoad-3 {
+
+0% {
+  opacity:0;
+  transform: translateY(-30px);
+}
+
+100% {
+  opacity:1;
+  transform: translateY(0px);
+}
+
+}
+
+.content-load-3 {
+  animation:contentLoad-4 0.75s ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes contentLoad-4 {
+
+0% {
+  opacity:0;
+  transform: translateY(30px);
+}
+
+100% {
+  opacity:1;
+  transform: translateY(0px);
+}
+
+}
+
+.content-load-4 {
+  animation: none;
+}
+
+
+
+
 .download-modal {
   display: none;
   position: fixed;
@@ -565,6 +629,7 @@ h5 {
     display: grid;
     margin:0;
     margin-top: 1em;
+    padding-bottom: 2em;
     text-align: center;
 }
 
@@ -2999,6 +3064,55 @@ pointer-events: none;
 
 @media (max-width:50em) {
 
+
+  .content-load-3 {
+    animation:none;
+  }
+
+  @keyframes contentLoad-3 {
+
+  0% {
+    opacity:0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+
+  }
+
+
+  .content-load-4 {
+    animation:contentLoad-5 0.75s ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes contentLoad-5 {
+
+  0% {
+    opacity:0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
   .usage-modal-body {
     padding:0;
     height:45vh;
@@ -4064,6 +4178,18 @@ body {
 
 @media (max-width:35em){
 
+
+  .scroll-class::-webkit-scrollbar {
+      display: none;
+  }
+
+  .scroll-class::-webkit-scrollbar-track {
+      display: none;
+  }
+
+  .scroll-class::-webkit-scrollbar-thumb {
+    display: none;
+  }
 
   .mobile-container-large {
     width:100%;
