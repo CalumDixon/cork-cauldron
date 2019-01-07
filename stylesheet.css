@@ -4171,6 +4171,17 @@ body {
       z-index: 100;
   }
 
+  .scroll-class::-webkit-scrollbar {
+      display: none;
+  }
+
+  .scroll-class::-webkit-scrollbar-track {
+      display: none;
+  }
+
+  .scroll-class::-webkit-scrollbar-thumb {
+    display: none;
+  }
 
 .potion-container a {
   line-height:0;
