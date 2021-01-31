@@ -286,7 +286,8 @@ transition: 200ms;
 
 
 .download-modal-body {
-  padding:3em;
+  padding-bottom:3em;
+  padding-top: 2em;
   height:auto;
   border-bottom-right-radius:1em;
   border-bottom-left-radius:1em;
@@ -1868,8 +1869,8 @@ pointer-events: none;
   }
 
   .download-modal-body {
-    padding:3em;
-    padding-top: 0em;
+    padding-bottom:3em;
+    padding-top: 2em;
     height:auto;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
@@ -2565,8 +2566,8 @@ pointer-events: none;
   }
 
   .download-modal-body {
-    padding:3em;
-    padding-top: 0em;
+    padding-bottom:3em;
+    padding-top: 2em;
     height:45vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
@@ -3397,8 +3398,8 @@ pointer-events: none;
   }
 
   .download-modal-body {
-    padding:3em;
-    padding-top: 0em;
+    padding-bottom:3em;
+    padding-top: 2em;
     height:45vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
@@ -4672,8 +4673,8 @@ body {
   }
 
   .download-modal-body {
-    padding:3em;
-    padding-top: 0em;
+    padding-bottom:3em;
+    padding-top: 2em;
     height:45vh;
     border-bottom-right-radius:1em;
     border-bottom-left-radius:1em;
